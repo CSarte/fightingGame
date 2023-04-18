@@ -33,19 +33,6 @@ public class FightingGameFinalFX extends Application {
         
     }
     
-    //method to create character stage
-    public void createAddCharStage(){
-        AddCharStage = new Stage();
-        AddCharStage.setTitle("Add Fighter");
-        AddCharStage.setAlwaysOnTop(true);
-        AddCharStage.setResizable(false);
-        AddCharStage.initModality(Modality.APPLICATION_MODAL);
-    }
-    
-    //method to get add character stage at any moment
-    public static Stage getAddCharStage(){
-        return AddCharStage;
-    }
 
 
 
