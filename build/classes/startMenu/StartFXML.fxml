@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="startMenu.StartFXMLController">
+   <top>
+      <TitledPane animated="false" text="Fight!" BorderPane.alignment="CENTER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="409.0" prefWidth="628.0">
+               <children>
+                  <Button fx:id="start" layoutX="203.0" layoutY="279.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="66.0" prefWidth="223.0" text="START">
+                     <font>
+                        <Font name="Agency FB Bold" size="31.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="222.0" layoutY="99.0" prefHeight="99.0" prefWidth="186.0" text="FIGHT!" wrapText="true">
+                     <font>
+                        <Font name="Agency FB Bold" size="85.0" />
+                     </font>
+                  </Label>
+                  <Line endX="105.0" endY="155.5" layoutY="-8.0" startX="126.0" startY="163.0" strokeWidth="3.0" />
+                  <Line endX="101.0" endY="143.0" layoutX="2.0" layoutY="-4.0" startX="101.0" startY="194.0" strokeWidth="4.0" />
+                  <Circle fill="WHITE" layoutX="103.0" layoutY="113.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="101.0" endY="143.0" layoutX="428.0" layoutY="-4.0" startX="101.0" startY="194.0" strokeWidth="4.0" />
+                  <Circle fill="WHITE" layoutX="529.0" layoutY="113.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="105.0" endY="155.5" layoutX="402.0" startX="126.0" startY="147.0" strokeWidth="3.0" />
+                  <Line endX="114.0" endY="148.5" layoutX="376.0" layoutY="-10.0" startX="128.878662109375" startY="167.621337890625" strokeWidth="3.0" />
+                  <Line endX="142.0" endY="148.0" layoutY="-13.0" startX="128.878662109375" startY="167.621337890625" strokeWidth="3.0" />
+                  <Line endX="142.0" endY="148.0" layoutX="-41.0" layoutY="46.0" startX="124.0" startY="189.0" strokeWidth="3.0" />
+                  <Line endX="111.0" endY="147.0" layoutX="-6.0" layoutY="45.0" startX="128.0" startY="190.0" strokeWidth="3.0" />
+                  <Line endX="111.0" endY="147.0" layoutX="418.0" layoutY="44.0" startX="128.0" startY="190.0" strokeWidth="3.0" />
+                  <Line endX="142.0" endY="148.0" layoutX="384.0" layoutY="45.0" startX="124.0" startY="189.0" strokeWidth="3.0" />
+                  <Line endX="105.0" endY="155.5" layoutX="-3.0" layoutY="-5.0" startX="122.5" startY="172.5" strokeWidth="3.0" />
+                  <Line endX="143.4393310546875" endY="158.74267578125" layoutX="-8.0" layoutY="-2.0" startX="128.878662109375" startY="167.621337890625" strokeWidth="3.0" />
+                  <Line endX="109.5" endY="160.5" layoutX="400.0" layoutY="8.0" startX="126.0" startY="147.0" strokeWidth="3.0" />
+                  <Line endX="111.5" endY="156.74267578125" layoutX="377.0" layoutY="2.0" startX="128.878662109375" startY="167.621337890625" strokeWidth="3.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+   </top>
+</BorderPane>
