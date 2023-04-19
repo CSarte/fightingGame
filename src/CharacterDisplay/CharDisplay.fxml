@@ -1,14 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.net.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CharacterDisplay.CharDisplayController">
-    <stylesheets>
-        <URL value="@chardisplay.css"/>
-    </stylesheets>
-</AnchorPane>
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="377.0" text="FIGHTER" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CharacterDisplay.CharDisplayController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="492.0" prefWidth="479.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffac21" height="75.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="383.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb121" height="169.0" layoutX="-4.0" layoutY="324.0" stroke="BLACK" strokeType="INSIDE" width="383.0" />
+            <Label layoutX="14.0" layoutY="333.0" text="STATS:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-4.0" prefHeight="83.0" prefWidth="377.0" text="NAME" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="409.0" text="POWERS:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="237.0" layoutY="390.0" text="INT">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="390.0" text="STA">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="113.0" layoutY="390.0" text="STR">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="175.0" layoutY="390.0" text="SPD">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="293.0" layoutY="390.0" text="SKL">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="STA" alignment="CENTER" layoutX="50.0" layoutY="352.0" prefHeight="34.0" prefWidth="43.0" text="0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="STR" alignment="CENTER" layoutX="103.0" layoutY="352.0" prefHeight="34.0" prefWidth="43.0" text="0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="SPD" alignment="CENTER" layoutX="166.0" layoutY="352.0" prefHeight="34.0" prefWidth="43.0" text="0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="INT" alignment="CENTER" layoutX="227.0" layoutY="352.0" prefHeight="34.0" prefWidth="43.0" text="0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="SKL" alignment="CENTER" layoutX="283.0" layoutY="352.0" prefHeight="34.0" prefWidth="43.0" text="0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="powerList" layoutX="36.0" layoutY="428.0" text="Label" />
+            <Label fx:id="teamLabel" alignment="CENTER" layoutX="146.0" layoutY="54.0" prefHeight="25.0" prefWidth="84.0" text="H Vs V">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
