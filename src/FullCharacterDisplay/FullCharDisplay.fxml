@@ -1,14 +1,498 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.net.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FullCharacterDisplay.FullCharDisplayController">
-    <stylesheets>
-        <URL value="@fullchardisplay.css"/>
-    </stylesheets>
-</AnchorPane>
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="852.0" prefWidth="936.0" text=" " xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FullCharacterDisplay.FullCharDisplayController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="830.0" prefWidth="943.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="78.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" width="945.0" />
+            <Label fx:id="middleTItle" alignment="CENTER" layoutX="376.0" layoutY="11.0" prefHeight="56.0" prefWidth="158.0" text="middle">
+               <font>
+                  <Font name="Agency FB" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="name1" alignment="CENTER" layoutX="116.0" layoutY="18.0" prefHeight="46.0" prefWidth="259.0" text="name1">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label fx:id="name2" alignment="CENTER" layoutX="554.0" layoutY="18.0" prefHeight="46.0" prefWidth="262.0" text="name2">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="125.0" layoutX="117.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8fafc" height="125.0" layoutX="234.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="125.0" layoutX="348.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="814.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <CheckBox layoutX="124.0" layoutY="680.0" mnemonicParsing="false" />
+            <CheckBox layoutX="355.0" layoutY="555.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice26" layoutX="242.0" layoutY="555.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice19" layoutX="355.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice11" layoutX="355.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice10" layoutX="242.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice18" layoutX="246.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice25" layoutX="124.0" layoutY="555.0" mnemonicParsing="false" />
+            <CheckBox layoutX="14.0" layoutY="680.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice24" layoutX="14.0" layoutY="555.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice17" layoutX="124.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice9" layoutX="124.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice6" layoutX="706.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice16" layoutX="14.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice8" layoutX="14.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice5" layoutX="589.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice4" layoutX="472.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice3" layoutX="363.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice2" layoutX="246.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice0" layoutX="14.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice1" layoutX="124.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox layoutX="589.0" layoutY="555.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice21" layoutX="589.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice13" layoutX="589.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice12" layoutX="472.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice20" layoutX="472.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox layoutX="472.0" layoutY="555.0" mnemonicParsing="false" />
+            <CheckBox layoutX="472.0" layoutY="680.0" mnemonicParsing="false" />
+            <CheckBox layoutX="355.0" layoutY="680.0" mnemonicParsing="false" />
+            <CheckBox layoutX="242.0" layoutY="680.0" mnemonicParsing="false" />
+            <CheckBox layoutX="824.0" layoutY="680.0" mnemonicParsing="false" />
+            <CheckBox layoutX="706.0" layoutY="680.0" mnemonicParsing="false" />
+            <CheckBox layoutX="589.0" layoutY="680.0" mnemonicParsing="false" />
+            <CheckBox layoutX="824.0" layoutY="557.0" mnemonicParsing="false" />
+            <CheckBox layoutX="706.0" layoutY="557.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice23" layoutX="824.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice15" layoutX="824.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice22" layoutX="706.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice7" layoutX="824.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice14" layoutX="706.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox layoutX="6.0" layoutY="804.0" mnemonicParsing="false" />
+            <CheckBox layoutX="124.0" layoutY="804.0" mnemonicParsing="false" />
+            <CheckBox layoutX="242.0" layoutY="804.0" mnemonicParsing="false" />
+            <CheckBox layoutX="355.0" layoutY="804.0" mnemonicParsing="false" />
+            <CheckBox layoutX="472.0" layoutY="804.0" mnemonicParsing="false" />
+            <CheckBox layoutX="589.0" layoutY="804.0" mnemonicParsing="false" />
+            <CheckBox layoutX="706.0" layoutY="804.0" mnemonicParsing="false" />
+            <CheckBox layoutX="824.0" layoutY="804.0" mnemonicParsing="false" />
+            <Label fx:id="name0" layoutX="7.0" layoutY="85.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="team0" layoutX="54.0" layoutY="181.0" prefHeight="17.0" prefWidth="56.0" text="Team" />
+            <Label fx:id="name17" layoutX="123.0" layoutY="335.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name16" layoutX="13.0" layoutY="335.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name14" layoutX="705.0" layoutY="211.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name6" layoutX="705.0" layoutY="85.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name13" layoutX="588.0" layoutY="211.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name12" layoutX="471.0" layoutY="211.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name11" layoutX="354.0" layoutY="211.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name5" layoutX="588.0" layoutY="85.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name4" layoutX="471.0" layoutY="85.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name3" layoutX="354.0" layoutY="85.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name10" layoutX="241.0" layoutY="211.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name2" layoutX="241.0" layoutY="85.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name9" layoutX="123.0" layoutY="211.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name1" layoutX="123.0" layoutY="85.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name8" layoutX="7.0" layoutY="211.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="471.0" layoutY="711.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="241.0" layoutY="586.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="123.0" layoutY="586.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="586.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="705.0" layoutY="460.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="588.0" layoutY="460.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="471.0" layoutY="460.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="354.0" layoutY="460.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name26" layoutX="241.0" layoutY="460.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name25" layoutX="123.0" layoutY="460.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name24" layoutX="7.0" layoutY="460.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name22" layoutX="705.0" layoutY="335.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name21" layoutX="588.0" layoutY="335.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name20" layoutX="471.0" layoutY="335.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name19" layoutX="354.0" layoutY="337.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name18" layoutX="245.0" layoutY="337.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="705.0" layoutY="711.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="823.0" layoutY="711.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name7" layoutX="823.0" layoutY="85.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name15" layoutX="824.0" layoutY="211.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="name23" layoutX="824.0" layoutY="334.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="823.0" layoutY="460.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="823.0" layoutY="586.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="705.0" layoutY="586.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="588.0" layoutY="586.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="471.0" layoutY="586.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="354.0" layoutY="586.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="711.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="123.0" layoutY="711.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="245.0" layoutY="711.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="588.0" layoutY="711.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="358.0" layoutY="711.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="team1" layoutX="171.0" layoutY="179.0" prefHeight="17.0" prefWidth="56.0" text="Team" />
+            <Label fx:id="team2" layoutX="290.0" layoutY="181.0" prefHeight="17.0" prefWidth="58.0" text="Team" />
+            <Label fx:id="team3" layoutX="408.0" layoutY="183.0" prefHeight="17.0" prefWidth="49.0" text="Team" />
+            <Label fx:id="team4" layoutX="527.0" layoutY="181.0" prefHeight="17.0" prefWidth="49.0" text="Team" />
+            <Label fx:id="team14" layoutX="762.0" layoutY="305.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team13" layoutX="644.0" layoutY="305.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team12" layoutX="526.0" layoutY="305.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team11" layoutX="406.0" layoutY="305.0" prefHeight="17.0" prefWidth="53.0" text="Team" />
+            <Label fx:id="team10" layoutX="287.0" layoutY="305.0" prefHeight="17.0" prefWidth="52.0" text="Team" />
+            <Label fx:id="team5" layoutX="640.0" layoutY="181.0" prefHeight="17.0" prefWidth="53.0" text="Team" />
+            <Label fx:id="team6" layoutX="760.0" layoutY="181.0" prefHeight="17.0" prefWidth="47.0" text="Team" />
+            <Label fx:id="team7" layoutX="882.0" layoutY="181.0" prefHeight="17.0" prefWidth="49.0" text="Team" />
+            <Label fx:id="team8" layoutX="58.0" layoutY="305.0" prefHeight="17.0" prefWidth="52.0" text="Team" />
+            <Label fx:id="team9" layoutX="173.0" layoutY="305.0" prefHeight="17.0" prefWidth="54.0" text="Team" />
+            <Label fx:id="team15" layoutX="875.0" layoutY="305.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team16" layoutX="60.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team17" layoutX="178.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team18" layoutX="297.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team19" layoutX="418.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team20" layoutX="529.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team21" layoutX="644.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team22" layoutX="762.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team23" layoutX="875.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team27" layoutX="410.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team31" layoutX="875.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team30" layoutX="762.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team29" layoutX="644.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team28" layoutX="526.0" layoutY="557.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team26" layoutX="291.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team25" layoutX="178.0" layoutY="557.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team24" layoutX="70.0" layoutY="557.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team33" layoutX="177.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team34" layoutX="297.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team35" layoutX="418.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team32" layoutX="70.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team36" layoutX="526.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team37" layoutX="644.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team38" layoutX="762.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team39" layoutX="875.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team43" layoutX="418.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team42" layoutX="297.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team41" layoutX="178.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team40" layoutX="70.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team47" layoutX="884.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team46" layoutX="769.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team45" layoutX="644.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team44" layoutX="532.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label layoutX="7.0" layoutY="102.0" text="Stats:">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="120.0" layoutY="102.0" text="Stats:">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="238.0" layoutY="102.0" text="Stats:">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="351.0" layoutY="102.0" text="Stats:">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="117.0" text="STA:">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="134.0" text="STR:">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="117.0" text="SPD:">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="134.0" text="INT:">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="117.0" text="SKL:">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="STA0" layoutX="23.0" layoutY="117.0" text="0">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="STR0" layoutX="25.0" layoutY="135.0" text="0">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="INT0" layoutX="58.0" layoutY="134.0" text="0">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="SPD0" layoutX="58.0" layoutY="117.0" text="0">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="SKL0" layoutX="90.0" layoutY="117.0" text="0">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="157.0" text="Num Powers:">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="powers0" layoutX="74.0" layoutY="158.0" text="0">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Button layoutX="872.0" layoutY="52.0" mnemonicParsing="false" text="Ready!" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
