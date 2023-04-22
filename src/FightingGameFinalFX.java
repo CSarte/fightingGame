@@ -20,7 +20,7 @@ import javafx.stage.Stage;
  * @author cathe
  */
 public class FightingGameFinalFX extends Application {
-    private static Stage AddCharStage = null;
+
     @Override
     //method to make and display starting scene stage
     public void start(Stage primaryStage) throws Exception{

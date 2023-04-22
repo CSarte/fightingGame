@@ -8,159 +8,105 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="852.0" prefWidth="936.0" text=" " xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FullCharacterDisplay.FullCharDisplayController">
+<fx:root animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="698.0" text=" " type="TitledPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FullCharacterDisplay.FullCharDisplayController">
   <content>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="830.0" prefWidth="943.0">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="817.0" prefWidth="921.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="78.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" width="945.0" />
-            <Label fx:id="middleTItle" alignment="CENTER" layoutX="376.0" layoutY="11.0" prefHeight="56.0" prefWidth="158.0" text="middle">
+            <Rectangle fx:id="headShape" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="78.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" width="945.0" />
+            <Label fx:id="middleTItle" alignment="CENTER" layoutX="270.0" layoutY="13.0" prefHeight="56.0" prefWidth="158.0" text="middle">
                <font>
                   <Font name="Agency FB" size="47.0" />
                </font>
             </Label>
-            <Label fx:id="name1" alignment="CENTER" layoutX="116.0" layoutY="18.0" prefHeight="46.0" prefWidth="259.0" text="name1">
+            <Label fx:id="name1" alignment="CENTER" layoutX="23.0" layoutY="18.0" prefHeight="46.0" prefWidth="259.0" text="name1">
                <font>
                   <Font size="31.0" />
                </font>
             </Label>
-            <Label fx:id="name2" alignment="CENTER" layoutX="554.0" layoutY="18.0" prefHeight="46.0" prefWidth="262.0" text="name2">
+            <Label fx:id="name2" alignment="CENTER" layoutX="434.0" layoutY="16.0" prefHeight="46.0" prefWidth="262.0" text="name2">
                <font>
                   <Font size="31.0" />
                </font>
             </Label>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="125.0" layoutX="117.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8fafc" height="125.0" layoutX="234.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="125.0" layoutX="348.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="461.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="231.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="345.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="232.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="816.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="814.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="699.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="582.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="465.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="348.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="234.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="117.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
-            <CheckBox layoutX="124.0" layoutY="680.0" mnemonicParsing="false" />
-            <CheckBox layoutX="355.0" layoutY="555.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice26" layoutX="242.0" layoutY="555.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice19" layoutX="355.0" layoutY="430.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice11" layoutX="355.0" layoutY="305.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice10" layoutX="242.0" layoutY="305.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice18" layoutX="246.0" layoutY="430.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice25" layoutX="124.0" layoutY="555.0" mnemonicParsing="false" />
-            <CheckBox layoutX="14.0" layoutY="680.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice24" layoutX="14.0" layoutY="555.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice17" layoutX="124.0" layoutY="430.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice9" layoutX="124.0" layoutY="305.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice6" layoutX="706.0" layoutY="179.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice16" layoutX="14.0" layoutY="430.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice8" layoutX="14.0" layoutY="305.0" mnemonicParsing="false" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="578.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="461.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="232.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="1.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="577.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="346.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa" height="125.0" layoutX="115.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="117.0" />
+            <CheckBox fx:id="choice19" layoutX="127.0" layoutY="554.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice11" layoutX="586.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice10" layoutX="473.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice18" layoutX="8.0" layoutY="554.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice17" layoutX="585.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice9" layoutX="355.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice6" layoutX="6.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice16" layoutX="475.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice8" layoutX="245.0" layoutY="305.0" mnemonicParsing="false" />
             <CheckBox fx:id="choice5" layoutX="589.0" layoutY="179.0" mnemonicParsing="false" />
             <CheckBox fx:id="choice4" layoutX="472.0" layoutY="179.0" mnemonicParsing="false" />
             <CheckBox fx:id="choice3" layoutX="363.0" layoutY="179.0" mnemonicParsing="false" />
             <CheckBox fx:id="choice2" layoutX="246.0" layoutY="179.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice0" layoutX="14.0" layoutY="179.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice0" layoutX="7.0" layoutY="179.0" mnemonicParsing="false" />
             <CheckBox fx:id="choice1" layoutX="132.0" layoutY="179.0" mnemonicParsing="false" />
-            <CheckBox layoutX="589.0" layoutY="555.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice21" layoutX="589.0" layoutY="430.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice13" layoutX="589.0" layoutY="305.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice12" layoutX="472.0" layoutY="305.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice20" layoutX="472.0" layoutY="430.0" mnemonicParsing="false" />
-            <CheckBox layoutX="472.0" layoutY="555.0" mnemonicParsing="false" />
-            <CheckBox layoutX="472.0" layoutY="680.0" mnemonicParsing="false" />
-            <CheckBox layoutX="355.0" layoutY="680.0" mnemonicParsing="false" />
-            <CheckBox layoutX="242.0" layoutY="680.0" mnemonicParsing="false" />
-            <CheckBox layoutX="824.0" layoutY="680.0" mnemonicParsing="false" />
-            <CheckBox layoutX="706.0" layoutY="680.0" mnemonicParsing="false" />
-            <CheckBox layoutX="589.0" layoutY="680.0" mnemonicParsing="false" />
-            <CheckBox layoutX="824.0" layoutY="557.0" mnemonicParsing="false" />
-            <CheckBox layoutX="706.0" layoutY="557.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice23" layoutX="824.0" layoutY="430.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice15" layoutX="824.0" layoutY="305.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice22" layoutX="706.0" layoutY="430.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice7" layoutX="824.0" layoutY="179.0" mnemonicParsing="false" />
-            <CheckBox fx:id="choice14" layoutX="706.0" layoutY="305.0" mnemonicParsing="false" />
-            <CheckBox layoutX="6.0" layoutY="804.0" mnemonicParsing="false" />
-            <CheckBox layoutX="124.0" layoutY="804.0" mnemonicParsing="false" />
-            <CheckBox layoutX="242.0" layoutY="804.0" mnemonicParsing="false" />
-            <CheckBox layoutX="355.0" layoutY="804.0" mnemonicParsing="false" />
-            <CheckBox layoutX="472.0" layoutY="804.0" mnemonicParsing="false" />
-            <CheckBox layoutX="589.0" layoutY="804.0" mnemonicParsing="false" />
-            <CheckBox layoutX="706.0" layoutY="804.0" mnemonicParsing="false" />
-            <CheckBox layoutX="824.0" layoutY="804.0" mnemonicParsing="false" />
-            <Label fx:id="name0" layoutX="7.0" layoutY="85.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
+            <CheckBox fx:id="choice21" layoutX="353.0" layoutY="554.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice13" layoutX="128.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice12" layoutX="11.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice20" layoutX="244.0" layoutY="555.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice23" layoutX="588.0" layoutY="550.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice15" layoutX="355.0" layoutY="430.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice22" layoutX="473.0" layoutY="550.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice7" layoutX="124.0" layoutY="305.0" mnemonicParsing="false" />
+            <CheckBox fx:id="choice14" layoutX="244.0" layoutY="430.0" mnemonicParsing="false" />
             <Label fx:id="team0" layoutX="54.0" layoutY="181.0" prefHeight="17.0" prefWidth="56.0" text="Team" />
-            <Label fx:id="name17" layoutX="123.0" layoutY="335.0" text="Name">
+            <Label fx:id="name17" layoutX="584.0" layoutY="335.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name16" layoutX="13.0" layoutY="335.0" text="Name">
+            <Label fx:id="name16" layoutX="474.0" layoutY="335.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name14" layoutX="705.0" layoutY="211.0" text="Name">
+            <Label fx:id="name14" layoutX="236.0" layoutY="339.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name6" layoutX="705.0" layoutY="85.0" text="Name">
+            <Label fx:id="name6" layoutX="5.0" layoutY="211.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name13" layoutX="588.0" layoutY="211.0" text="Name">
+            <Label fx:id="name13" layoutX="127.0" layoutY="336.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name12" layoutX="471.0" layoutY="211.0" text="Name">
+            <Label fx:id="name12" layoutX="10.0" layoutY="336.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name11" layoutX="354.0" layoutY="211.0" text="Name">
+            <Label fx:id="name11" layoutX="585.0" layoutY="211.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -180,7 +126,7 @@
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name10" layoutX="241.0" layoutY="211.0" text="Name">
+            <Label fx:id="name10" layoutX="472.0" layoutY="211.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -190,7 +136,7 @@
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name9" layoutX="123.0" layoutY="211.0" text="Name">
+            <Label fx:id="name9" layoutX="354.0" layoutY="211.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -200,218 +146,74 @@
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="name8" layoutX="7.0" layoutY="211.0" text="Name">
+            <Label fx:id="name8" layoutX="238.0" layoutY="211.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="471.0" layoutY="711.0" text="Name">
+            <Label fx:id="name22" layoutX="469.0" layoutY="463.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="241.0" layoutY="586.0" text="Name">
+            <Label fx:id="name21" layoutX="352.0" layoutY="462.0" prefHeight="17.0" prefWidth="34.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="123.0" layoutY="586.0" text="Name">
+            <Label fx:id="name20" layoutX="243.0" layoutY="460.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="5.0" layoutY="586.0" text="Name">
+            <Label fx:id="name19" layoutX="123.0" layoutY="462.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="705.0" layoutY="460.0" text="Name">
+            <Label fx:id="name18" layoutX="5.0" layoutY="462.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="588.0" layoutY="460.0" text="Name">
+            <Label fx:id="name7" layoutX="123.0" layoutY="211.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="471.0" layoutY="460.0" text="Name">
+            <Label fx:id="name15" layoutX="355.0" layoutY="339.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="354.0" layoutY="460.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name26" layoutX="241.0" layoutY="460.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name25" layoutX="123.0" layoutY="460.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name24" layoutX="7.0" layoutY="460.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name22" layoutX="705.0" layoutY="335.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name21" layoutX="588.0" layoutY="335.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name20" layoutX="471.0" layoutY="335.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name19" layoutX="354.0" layoutY="335.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name18" layoutX="245.0" layoutY="334.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="705.0" layoutY="711.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="823.0" layoutY="711.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name7" layoutX="823.0" layoutY="85.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name15" layoutX="824.0" layoutY="211.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label fx:id="name23" layoutX="824.0" layoutY="334.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="823.0" layoutY="460.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="823.0" layoutY="586.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="705.0" layoutY="586.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="588.0" layoutY="586.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="471.0" layoutY="586.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="354.0" layoutY="586.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="13.0" layoutY="711.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="123.0" layoutY="711.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="245.0" layoutY="711.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="588.0" layoutY="711.0" text="Name">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label layoutX="358.0" layoutY="711.0" text="Name">
+            <Label fx:id="name23" layoutX="588.0" layoutY="462.0" text="Name">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
             <Label fx:id="team1" layoutX="171.0" layoutY="179.0" prefHeight="17.0" prefWidth="56.0" text="Team" />
             <Label fx:id="team2" layoutX="290.0" layoutY="181.0" prefHeight="17.0" prefWidth="58.0" text="Team" />
-            <Label fx:id="team3" layoutX="408.0" layoutY="179.0" prefHeight="17.0" prefWidth="49.0" text="Team" />
-            <Label fx:id="team4" layoutX="527.0" layoutY="181.0" prefHeight="17.0" prefWidth="49.0" text="Team" />
-            <Label fx:id="team14" layoutX="762.0" layoutY="305.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team13" layoutX="644.0" layoutY="305.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team12" layoutX="526.0" layoutY="305.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team11" layoutX="406.0" layoutY="305.0" prefHeight="17.0" prefWidth="53.0" text="Team" />
-            <Label fx:id="team10" layoutX="287.0" layoutY="305.0" prefHeight="17.0" prefWidth="52.0" text="Team" />
+            <Label fx:id="team3" layoutX="405.0" layoutY="179.0" prefHeight="17.0" prefWidth="49.0" text="Team" />
+            <Label fx:id="team4" layoutX="520.0" layoutY="181.0" prefHeight="17.0" prefWidth="49.0" text="Team" />
+            <Label fx:id="team14" layoutX="293.0" layoutY="433.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team13" layoutX="180.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team12" layoutX="65.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team11" layoutX="640.0" layoutY="305.0" prefHeight="17.0" prefWidth="53.0" text="Team" />
+            <Label fx:id="team10" layoutX="518.0" layoutY="305.0" prefHeight="17.0" prefWidth="52.0" text="Team" />
             <Label fx:id="team5" layoutX="640.0" layoutY="181.0" prefHeight="17.0" prefWidth="53.0" text="Team" />
-            <Label fx:id="team6" layoutX="760.0" layoutY="181.0" prefHeight="17.0" prefWidth="47.0" text="Team" />
-            <Label fx:id="team7" layoutX="882.0" layoutY="181.0" prefHeight="17.0" prefWidth="49.0" text="Team" />
-            <Label fx:id="team8" layoutX="58.0" layoutY="305.0" prefHeight="17.0" prefWidth="52.0" text="Team" />
-            <Label fx:id="team9" layoutX="173.0" layoutY="305.0" prefHeight="17.0" prefWidth="54.0" text="Team" />
-            <Label fx:id="team15" layoutX="875.0" layoutY="305.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team16" layoutX="60.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team17" layoutX="178.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team18" layoutX="297.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team19" layoutX="418.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team20" layoutX="529.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team21" layoutX="644.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team22" layoutX="762.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team23" layoutX="875.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team27" layoutX="410.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team31" layoutX="875.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team30" layoutX="762.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team29" layoutX="644.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team28" layoutX="526.0" layoutY="557.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team26" layoutX="291.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team25" layoutX="178.0" layoutY="557.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team24" layoutX="70.0" layoutY="557.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team33" layoutX="177.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team34" layoutX="297.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team35" layoutX="418.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team32" layoutX="70.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team36" layoutX="526.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team37" layoutX="644.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team38" layoutX="762.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team39" layoutX="875.0" layoutY="680.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team43" layoutX="418.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team42" layoutX="297.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team41" layoutX="178.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team40" layoutX="70.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team47" layoutX="884.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team46" layoutX="769.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team45" layoutX="644.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
-            <Label fx:id="team44" layoutX="532.0" layoutY="804.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team6" layoutX="60.0" layoutY="307.0" prefHeight="17.0" prefWidth="47.0" text="Team" />
+            <Label fx:id="team7" layoutX="176.0" layoutY="307.0" prefHeight="17.0" prefWidth="55.0" text="Team" />
+            <Label fx:id="team8" layoutX="289.0" layoutY="305.0" prefHeight="17.0" prefWidth="52.0" text="Team" />
+            <Label fx:id="team9" layoutX="404.0" layoutY="305.0" prefHeight="17.0" prefWidth="54.0" text="Team" />
+            <Label fx:id="team15" layoutX="406.0" layoutY="433.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team16" layoutX="521.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team17" layoutX="639.0" layoutY="430.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team18" layoutX="67.0" layoutY="554.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team19" layoutX="184.0" layoutY="554.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team20" layoutX="301.0" layoutY="555.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team21" layoutX="407.0" layoutY="554.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team22" layoutX="526.0" layoutY="554.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
+            <Label fx:id="team23" layoutX="639.0" layoutY="550.0" prefHeight="17.0" prefWidth="45.0" text="Team" />
             <Label layoutX="10.0" layoutY="102.0" text="Stats:">
                <font>
                   <Font size="10.0" />
@@ -492,7 +294,7 @@
                   <Font size="9.0" />
                </font>
             </Label>
-            <Button fx:id="ReadyButton" layoutX="871.0" layoutY="50.0" mnemonicParsing="false" text="Ready!" />
+            <Button fx:id="ReadyButton" layoutX="640.0" layoutY="50.0" mnemonicParsing="false" onAction="#buttonAction" text="Ready!" />
             <Label layoutX="124.0" layoutY="117.0" text="STA:">
                <font>
                   <Font size="8.0" />
@@ -598,7 +400,7 @@
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT3" layoutX="290.0" layoutY="134.0" text="0">
+            <Label fx:id="INT2" layoutX="290.0" layoutY="134.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
@@ -628,17 +430,7 @@
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="708.0" layoutY="157.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="828.0" layoutY="157.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="12.0" layoutY="283.0" text="Num Powers:">
+            <Label layoutX="8.0" layoutY="283.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
@@ -648,192 +440,82 @@
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="247.0" layoutY="283.0" text="Num Powers:">
+            <Label layoutX="243.0" layoutY="283.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="358.0" layoutY="283.0" text="Num Powers:">
+            <Label layoutX="359.0" layoutY="283.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="475.0" layoutY="283.0" text="Num Powers:">
+            <Label layoutX="478.0" layoutY="283.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="592.0" layoutY="283.0" text="Num Powers:">
+            <Label layoutX="589.0" layoutY="283.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="710.0" layoutY="283.0" text="Num Powers:">
+            <Label layoutX="14.0" layoutY="408.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="829.0" layoutY="283.0" text="Num Powers:">
+            <Label layoutX="131.0" layoutY="408.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="10.0" layoutY="405.0" text="Num Powers:">
+            <Label layoutX="241.0" layoutY="411.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="128.0" layoutY="405.0" text="Num Powers:">
+            <Label layoutX="360.0" layoutY="411.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="243.0" layoutY="405.0" text="Num Powers:">
+            <Label layoutX="471.0" layoutY="405.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="358.0" layoutY="405.0" text="Num Powers:">
+            <Label layoutX="589.0" layoutY="405.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="475.0" layoutY="405.0" text="Num Powers:">
+            <Label layoutX="9.0" layoutY="532.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="592.0" layoutY="405.0" text="Num Powers:">
+            <Label layoutX="121.0" layoutY="539.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="708.0" layoutY="405.0" text="Num Powers:">
+            <Label layoutX="244.0" layoutY="534.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="829.0" layoutY="405.0" text="Num Powers:">
+            <Label layoutX="356.0" layoutY="533.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="11.0" layoutY="532.0" text="Num Powers:">
+            <Label layoutX="472.0" layoutY="533.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="128.0" layoutY="532.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="241.0" layoutY="532.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="358.0" layoutY="532.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="475.0" layoutY="532.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="592.0" layoutY="532.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="708.0" layoutY="532.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="828.0" layoutY="532.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="9.0" layoutY="656.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="128.0" layoutY="656.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="243.0" layoutY="656.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="359.0" layoutY="656.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="475.0" layoutY="656.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="593.0" layoutY="656.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="710.0" layoutY="656.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="828.0" layoutY="656.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="12.0" layoutY="781.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="128.0" layoutY="781.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="246.0" layoutY="781.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="358.0" layoutY="781.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="475.0" layoutY="781.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="592.0" layoutY="781.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="710.0" layoutY="781.0" text="Num Powers:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="828.0" layoutY="781.0" text="Num Powers:">
+            <Label layoutX="593.0" layoutY="533.0" text="Num Powers:">
                <font>
                   <Font size="10.0" />
                </font>
@@ -848,212 +530,97 @@
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="710.0" layoutY="102.0" text="Stats:">
+            <Label layoutX="10.0" layoutY="228.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="829.0" layoutY="102.0" text="Stats:">
+            <Label layoutX="129.0" layoutY="228.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="11.0" layoutY="228.0" text="Stats:">
+            <Label layoutX="242.0" layoutY="228.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="130.0" layoutY="228.0" text="Stats:">
+            <Label layoutX="361.0" layoutY="228.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="251.0" layoutY="228.0" text="Stats:">
+            <Label layoutX="482.0" layoutY="228.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="359.0" layoutY="228.0" text="Stats:">
+            <Label layoutX="590.0" layoutY="228.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="477.0" layoutY="228.0" text="Stats:">
+            <Label layoutX="16.0" layoutY="353.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="593.0" layoutY="228.0" text="Stats:">
+            <Label layoutX="132.0" layoutY="353.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="711.0" layoutY="228.0" text="Stats:">
+            <Label layoutX="242.0" layoutY="356.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="828.0" layoutY="228.0" text="Stats:">
+            <Label layoutX="359.0" layoutY="356.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="16.0" layoutY="354.0" text="Stats:">
+            <Label layoutX="468.0" layoutY="354.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="130.0" layoutY="354.0" text="Stats:">
+            <Label layoutX="587.0" layoutY="353.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="248.0" layoutY="354.0" text="Stats:">
+            <Label layoutX="4.0" layoutY="478.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="363.0" layoutY="354.0" text="Stats:">
+            <Label layoutX="123.0" layoutY="478.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="477.0" layoutY="354.0" text="Stats:">
+            <Label layoutX="249.0" layoutY="479.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="593.0" layoutY="354.0" text="Stats:">
+            <Label layoutX="357.0" layoutY="482.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="711.0" layoutY="354.0" text="Stats:">
+            <Label layoutX="475.0" layoutY="482.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="828.0" layoutY="354.0" text="Stats:">
+            <Label layoutX="592.0" layoutY="482.0" text="Stats:">
                <font>
                   <Font size="10.0" />
                </font>
             </Label>
-            <Label layoutX="13.0" layoutY="483.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="128.0" layoutY="483.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="246.0" layoutY="483.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="359.0" layoutY="483.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="476.0" layoutY="483.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="594.0" layoutY="483.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="710.0" layoutY="483.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="828.0" layoutY="483.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="13.0" layoutY="610.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="129.0" layoutY="610.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="247.0" layoutY="610.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="364.0" layoutY="610.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="476.0" layoutY="610.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="594.0" layoutY="610.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="710.0" layoutY="610.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="829.0" layoutY="610.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="13.0" layoutY="729.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="130.0" layoutY="729.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="250.0" layoutY="729.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="364.0" layoutY="729.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="476.0" layoutY="729.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="594.0" layoutY="729.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="711.0" layoutY="729.0" text="Stats:">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
-            <Label layoutX="829.0" layoutY="729.0" text="Stats:">
+            <Label layoutX="247.0" layoutY="610.0">
                <font>
                   <Font size="10.0" />
                </font>
@@ -1083,7 +650,7 @@
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA4" layoutX="375.0" layoutY="119.0" text="0">
+            <Label fx:id="STA3" layoutX="375.0" layoutY="119.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
@@ -1138,7 +705,7 @@
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA5" layoutX="493.0" layoutY="119.0" text="0">
+            <Label fx:id="STA4" layoutX="493.0" layoutY="119.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
@@ -1193,7 +760,7 @@
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA6" layoutX="610.0" layoutY="115.0" text="0">
+            <Label fx:id="STA5" layoutX="610.0" layoutY="115.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
@@ -1208,7 +775,7 @@
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD6" layoutX="640.0" layoutY="132.0" text="0">
+            <Label fx:id="INT6" layoutX="640.0" layoutY="132.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
@@ -1223,167 +790,57 @@
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="710.0" layoutY="120.0" text="STA:">
+            <Label layoutX="10.0" layoutY="246.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="709.0" layoutY="137.0" text="STR:">
+            <Label layoutX="9.0" layoutY="263.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="738.0" layoutY="120.0" text="SPD:">
+            <Label layoutX="38.0" layoutY="246.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="739.0" layoutY="137.0" text="INT:">
+            <Label layoutX="39.0" layoutY="263.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="784.0" layoutY="120.0" text="SKL:">
+            <Label layoutX="84.0" layoutY="246.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA7" layoutX="727.0" layoutY="120.0" text="0">
+            <Label fx:id="STA6" layoutX="27.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA7" layoutX="727.0" layoutY="137.0" text="0">
+            <Label fx:id="STA7" layoutX="27.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD7" layoutX="757.0" layoutY="120.0" text="0">
+            <Label fx:id="SPD7" layoutX="57.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT7" layoutX="757.0" layoutY="137.0" text="0">
+            <Label fx:id="INT7" layoutX="57.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL7" layoutX="801.0" layoutY="120.0" text="0">
+            <Label fx:id="SKL7" layoutX="101.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers7" layoutX="780.0" layoutY="160.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="828.0" layoutY="120.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="827.0" layoutY="137.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="856.0" layoutY="120.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="857.0" layoutY="137.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="902.0" layoutY="120.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA8" layoutX="845.0" layoutY="120.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR8" layoutX="845.0" layoutY="137.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD8" layoutX="875.0" layoutY="120.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT8" layoutX="875.0" layoutY="137.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL8" layoutX="919.0" layoutY="120.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers8" layoutX="898.0" layoutY="160.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="11.0" layoutY="243.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="10.0" layoutY="260.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="39.0" layoutY="243.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="40.0" layoutY="260.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="85.0" layoutY="243.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA9" layoutX="28.0" layoutY="243.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR9" layoutX="28.0" layoutY="260.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD9" layoutX="58.0" layoutY="243.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT9" layoutX="58.0" layoutY="260.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL9" layoutX="102.0" layoutY="243.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers9" layoutX="81.0" layoutY="283.0" text="0">
+            <Label fx:id="powers7" layoutX="80.0" layoutY="286.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
@@ -1413,197 +870,197 @@
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA10" layoutX="145.0" layoutY="246.0" text="0">
+            <Label fx:id="STA7" layoutX="145.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR10" layoutX="145.0" layoutY="263.0" text="0">
+            <Label fx:id="STR8" layoutX="145.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD10" layoutX="175.0" layoutY="246.0" text="0">
+            <Label fx:id="SPD8" layoutX="175.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD10" layoutX="175.0" layoutY="263.0" text="0">
+            <Label fx:id="INT8" layoutX="175.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL10" layoutX="219.0" layoutY="246.0" text="0">
+            <Label fx:id="SKL8" layoutX="219.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers10" layoutX="198.0" layoutY="286.0" text="0">
+            <Label fx:id="powers8" layoutX="198.0" layoutY="286.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="243.0" layoutY="246.0" text="STA:">
+            <Label layoutX="242.0" layoutY="243.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="242.0" layoutY="263.0" text="STR:">
+            <Label layoutX="241.0" layoutY="260.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="271.0" layoutY="246.0" text="SPD:">
+            <Label layoutX="270.0" layoutY="243.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="272.0" layoutY="263.0" text="INT:">
+            <Label layoutX="271.0" layoutY="260.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="317.0" layoutY="246.0" text="SKL:">
+            <Label layoutX="316.0" layoutY="243.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA11" layoutX="260.0" layoutY="246.0" text="0">
+            <Label fx:id="STA8" layoutX="259.0" layoutY="243.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR11" layoutX="260.0" layoutY="263.0" text="0">
+            <Label fx:id="STR9" layoutX="259.0" layoutY="260.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD11" layoutX="290.0" layoutY="246.0" text="0">
+            <Label fx:id="SPD9" layoutX="289.0" layoutY="243.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT11" layoutX="290.0" layoutY="263.0" text="0">
+            <Label fx:id="INT9" layoutX="289.0" layoutY="260.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL11" layoutX="334.0" layoutY="246.0" text="0">
+            <Label fx:id="SKL9" layoutX="333.0" layoutY="243.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers11" layoutX="313.0" layoutY="286.0" text="0">
+            <Label fx:id="powers9" layoutX="312.0" layoutY="283.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="358.0" layoutY="246.0" text="STA:">
+            <Label layoutX="359.0" layoutY="246.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="357.0" layoutY="263.0" text="STR:">
+            <Label layoutX="358.0" layoutY="263.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="386.0" layoutY="246.0" text="SPD:">
+            <Label layoutX="387.0" layoutY="246.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="387.0" layoutY="263.0" text="INT:">
+            <Label layoutX="388.0" layoutY="263.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="432.0" layoutY="246.0" text="SKL:">
+            <Label layoutX="433.0" layoutY="246.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA12" layoutX="375.0" layoutY="246.0" text="0">
+            <Label fx:id="STA9" layoutX="376.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR12" layoutX="375.0" layoutY="263.0" text="0">
+            <Label fx:id="STR10" layoutX="376.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD12" layoutX="405.0" layoutY="246.0" text="0">
+            <Label fx:id="SPD10" layoutX="406.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT12" layoutX="405.0" layoutY="263.0" text="0">
+            <Label fx:id="INT10" layoutX="406.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL12" layoutX="449.0" layoutY="246.0" text="0">
+            <Label fx:id="SKL10" layoutX="450.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers12" layoutX="428.0" layoutY="286.0" text="0">
+            <Label fx:id="powers10" layoutX="429.0" layoutY="286.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="472.0" layoutY="246.0" text="STA:">
+            <Label layoutX="474.0" layoutY="246.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="471.0" layoutY="263.0" text="STR:">
+            <Label layoutX="473.0" layoutY="263.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="500.0" layoutY="246.0" text="SPD:">
+            <Label layoutX="502.0" layoutY="246.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="501.0" layoutY="263.0" text="INT:">
+            <Label layoutX="503.0" layoutY="263.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="546.0" layoutY="246.0" text="SKL:">
+            <Label layoutX="548.0" layoutY="246.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA13" layoutX="489.0" layoutY="246.0" text="0">
+            <Label fx:id="STA10" layoutX="491.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR13" layoutX="489.0" layoutY="263.0" text="0">
+            <Label fx:id="STR11" layoutX="491.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD13" layoutX="519.0" layoutY="246.0" text="0">
+            <Label fx:id="SPD11" layoutX="521.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT13" layoutX="519.0" layoutY="263.0" text="0">
+            <Label fx:id="INT11" layoutX="521.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL13" layoutX="563.0" layoutY="246.0" text="0">
+            <Label fx:id="SKL11" layoutX="565.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers13" layoutX="542.0" layoutY="286.0" text="0">
+            <Label fx:id="powers11" layoutX="544.0" layoutY="286.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
@@ -1633,1906 +1090,696 @@
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA14" layoutX="606.0" layoutY="246.0" text="0">
+            <Label fx:id="STA11" layoutX="606.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR14" layoutX="606.0" layoutY="263.0" text="0">
+            <Label fx:id="STR12" layoutX="606.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD14" layoutX="636.0" layoutY="246.0" text="0">
+            <Label fx:id="SPD12" layoutX="636.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT14" layoutX="636.0" layoutY="263.0" text="0">
+            <Label fx:id="INT12" layoutX="636.0" layoutY="263.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL14" layoutX="680.0" layoutY="246.0" text="0">
+            <Label fx:id="SKL12" layoutX="680.0" layoutY="246.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers14" layoutX="659.0" layoutY="286.0" text="0">
+            <Label fx:id="powers12" layoutX="659.0" layoutY="286.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="710.0" layoutY="246.0" text="STA:">
+            <Label layoutX="11.0" layoutY="371.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="709.0" layoutY="263.0" text="STR:">
+            <Label layoutX="10.0" layoutY="388.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="738.0" layoutY="246.0" text="SPD:">
+            <Label layoutX="39.0" layoutY="371.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="739.0" layoutY="263.0" text="INT:">
+            <Label layoutX="40.0" layoutY="388.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="784.0" layoutY="246.0" text="SKL:">
+            <Label layoutX="85.0" layoutY="371.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA15" layoutX="727.0" layoutY="246.0" text="0">
+            <Label fx:id="STA12" layoutX="28.0" layoutY="371.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR15" layoutX="727.0" layoutY="263.0" text="0">
+            <Label fx:id="STR13" layoutX="28.0" layoutY="388.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD15" layoutX="757.0" layoutY="246.0" text="0">
+            <Label fx:id="SPD13" layoutX="58.0" layoutY="371.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT15" layoutX="757.0" layoutY="263.0" text="0">
+            <Label fx:id="INT13" layoutX="58.0" layoutY="388.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL15" layoutX="801.0" layoutY="246.0" text="0">
+            <Label fx:id="SKL13" layoutX="102.0" layoutY="371.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers15" layoutX="780.0" layoutY="286.0" text="0">
+            <Label fx:id="powers13" layoutX="81.0" layoutY="411.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="827.0" layoutY="246.0" text="STA:">
+            <Label layoutX="128.0" layoutY="371.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="826.0" layoutY="263.0" text="STR:">
+            <Label layoutX="127.0" layoutY="388.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="855.0" layoutY="246.0" text="SPD:">
+            <Label layoutX="156.0" layoutY="371.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="856.0" layoutY="263.0" text="INT:">
+            <Label layoutX="157.0" layoutY="388.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="901.0" layoutY="246.0" text="SKL:">
+            <Label layoutX="202.0" layoutY="371.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA16" layoutX="844.0" layoutY="246.0" text="0">
+            <Label fx:id="STA13" layoutX="145.0" layoutY="371.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR16" layoutX="844.0" layoutY="263.0" text="0">
+            <Label fx:id="STR14" layoutX="145.0" layoutY="388.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD16" layoutX="874.0" layoutY="246.0" text="0">
+            <Label fx:id="SPD14" layoutX="175.0" layoutY="371.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT16" layoutX="874.0" layoutY="263.0" text="0">
+            <Label fx:id="INT14" layoutX="175.0" layoutY="388.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL16" layoutX="918.0" layoutY="246.0" text="0">
+            <Label fx:id="SKL14" layoutX="219.0" layoutY="371.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers16" layoutX="897.0" layoutY="286.0" text="0">
+            <Label fx:id="powers14" layoutX="198.0" layoutY="411.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="11.0" layoutY="369.0" text="STA:">
+            <Label layoutX="241.0" layoutY="374.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="10.0" layoutY="386.0" text="STR:">
+            <Label layoutX="240.0" layoutY="391.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="39.0" layoutY="369.0" text="SPD:">
+            <Label layoutX="269.0" layoutY="374.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="40.0" layoutY="386.0" text="INT:">
+            <Label layoutX="270.0" layoutY="391.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="85.0" layoutY="369.0" text="SKL:">
+            <Label layoutX="315.0" layoutY="374.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA17" layoutX="28.0" layoutY="369.0" text="0">
+            <Label fx:id="STA14" layoutX="258.0" layoutY="374.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR17" layoutX="28.0" layoutY="386.0" text="0">
+            <Label fx:id="STR15" layoutX="258.0" layoutY="391.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD17" layoutX="58.0" layoutY="369.0" text="0">
+            <Label fx:id="SPD15" layoutX="288.0" layoutY="374.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT17" layoutX="58.0" layoutY="386.0" text="0">
+            <Label fx:id="INT15" layoutX="288.0" layoutY="391.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL17" layoutX="102.0" layoutY="369.0" text="0">
+            <Label fx:id="SKL15" layoutX="332.0" layoutY="374.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers17" layoutX="81.0" layoutY="409.0" text="0">
+            <Label fx:id="powers15" layoutX="311.0" layoutY="414.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="128.0" layoutY="366.0" text="STA:">
+            <Label layoutX="358.0" layoutY="374.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="127.0" layoutY="383.0" text="STR:">
+            <Label layoutX="357.0" layoutY="391.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="156.0" layoutY="366.0" text="SPD:">
+            <Label layoutX="386.0" layoutY="374.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="157.0" layoutY="383.0" text="INT:">
+            <Label layoutX="387.0" layoutY="391.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="202.0" layoutY="366.0" text="SKL:">
+            <Label layoutX="432.0" layoutY="374.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA18" layoutX="145.0" layoutY="366.0" text="0">
+            <Label fx:id="STA15" layoutX="375.0" layoutY="374.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR18" layoutX="145.0" layoutY="383.0" text="0">
+            <Label fx:id="STR16" layoutX="375.0" layoutY="391.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD18" layoutX="175.0" layoutY="366.0" text="0">
+            <Label fx:id="SPD16" layoutX="405.0" layoutY="374.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT18" layoutX="175.0" layoutY="383.0" text="0">
+            <Label fx:id="INT16" layoutX="405.0" layoutY="391.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL18" layoutX="219.0" layoutY="366.0" text="0">
+            <Label fx:id="SKL16" layoutX="449.0" layoutY="374.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers18" layoutX="198.0" layoutY="406.0" text="0">
+            <Label fx:id="powers16" layoutX="428.0" layoutY="414.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="244.0" layoutY="369.0" text="STA:">
+            <Label layoutX="472.0" layoutY="369.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="243.0" layoutY="386.0" text="STR:">
+            <Label layoutX="471.0" layoutY="386.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="272.0" layoutY="369.0" text="SPD:">
+            <Label layoutX="500.0" layoutY="369.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="273.0" layoutY="386.0" text="INT:">
+            <Label layoutX="501.0" layoutY="386.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="318.0" layoutY="369.0" text="SKL:">
+            <Label layoutX="539.0" layoutY="369.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA19" layoutX="261.0" layoutY="369.0" text="0">
+            <Label fx:id="STA16" layoutX="489.0" layoutY="369.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR19" layoutX="261.0" layoutY="386.0" text="0">
+            <Label fx:id="STR17" layoutX="489.0" layoutY="386.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD19" layoutX="291.0" layoutY="369.0" text="0">
+            <Label fx:id="SPD17" layoutX="519.0" layoutY="369.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT19" layoutX="291.0" layoutY="386.0" text="0">
+            <Label fx:id="INT17" layoutX="519.0" layoutY="386.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL19" layoutX="335.0" layoutY="369.0" text="0">
+            <Label fx:id="SKL17" layoutX="555.0" layoutY="369.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers19" layoutX="314.0" layoutY="409.0" text="0">
+            <Label fx:id="powers17" layoutX="538.0" layoutY="409.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="357.0" layoutY="369.0" text="STA:">
+            <Label layoutX="589.0" layoutY="366.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="356.0" layoutY="386.0" text="STR:">
+            <Label layoutX="588.0" layoutY="383.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="385.0" layoutY="369.0" text="SPD:">
+            <Label layoutX="617.0" layoutY="366.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="386.0" layoutY="386.0" text="INT:">
+            <Label layoutX="618.0" layoutY="383.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="431.0" layoutY="369.0" text="SKL:">
+            <Label layoutX="663.0" layoutY="366.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA20" layoutX="374.0" layoutY="369.0" text="0">
+            <Label fx:id="STA17" layoutX="606.0" layoutY="366.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR20" layoutX="374.0" layoutY="386.0" text="0">
+            <Label fx:id="STR18" layoutX="606.0" layoutY="383.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD20" layoutX="404.0" layoutY="369.0" text="0">
+            <Label fx:id="SPD18" layoutX="636.0" layoutY="366.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT20" layoutX="404.0" layoutY="386.0" text="0">
+            <Label fx:id="INT18" layoutX="636.0" layoutY="383.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL20" layoutX="448.0" layoutY="369.0" text="0">
+            <Label fx:id="SKL18" layoutX="680.0" layoutY="366.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers20" layoutX="427.0" layoutY="409.0" text="0">
+            <Label fx:id="powers18" layoutX="659.0" layoutY="406.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="474.0" layoutY="369.0" text="STA:">
+            <Label layoutX="10.0" layoutY="493.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="473.0" layoutY="386.0" text="STR:">
+            <Label layoutX="10.0" layoutY="510.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="502.0" layoutY="369.0" text="SPD:">
+            <Label layoutX="38.0" layoutY="493.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="503.0" layoutY="386.0" text="INT:">
+            <Label layoutX="39.0" layoutY="510.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="548.0" layoutY="369.0" text="SKL:">
+            <Label layoutX="75.0" layoutY="493.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA21" layoutX="491.0" layoutY="369.0" text="0">
+            <Label fx:id="STA18" layoutX="28.0" layoutY="493.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR21" layoutX="491.0" layoutY="386.0" text="0">
+            <Label fx:id="STR19" layoutX="28.0" layoutY="510.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD21" layoutX="521.0" layoutY="369.0" text="0">
+            <Label fx:id="SPD19" layoutX="58.0" layoutY="493.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT21" layoutX="521.0" layoutY="386.0" text="0">
+            <Label fx:id="INT19" layoutX="58.0" layoutY="510.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL21" layoutX="565.0" layoutY="369.0" text="0">
+            <Label fx:id="SKL19" layoutX="90.0" layoutY="493.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers21" layoutX="544.0" layoutY="409.0" text="0">
+            <Label fx:id="powers19" layoutX="77.0" layoutY="534.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="597.0" layoutY="369.0" text="STA:">
+            <Label layoutX="127.0" layoutY="499.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="596.0" layoutY="386.0" text="STR:">
+            <Label layoutX="127.0" layoutY="516.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="625.0" layoutY="369.0" text="SPD:">
+            <Label layoutX="157.0" layoutY="499.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="626.0" layoutY="386.0" text="INT:">
+            <Label layoutX="158.0" layoutY="516.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="671.0" layoutY="369.0" text="SKL:">
+            <Label layoutX="195.0" layoutY="499.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA22" layoutX="614.0" layoutY="369.0" text="0">
+            <Label fx:id="STA19" layoutX="147.0" layoutY="499.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR22" layoutX="614.0" layoutY="386.0" text="0">
+            <Label fx:id="STR20" layoutX="147.0" layoutY="516.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD22" layoutX="644.0" layoutY="369.0" text="0">
+            <Label fx:id="SPD20" layoutX="176.0" layoutY="499.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT22" layoutX="644.0" layoutY="386.0" text="0">
+            <Label fx:id="INT20" layoutX="177.0" layoutY="516.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL22" layoutX="688.0" layoutY="369.0" text="0">
+            <Label fx:id="SKL20" layoutX="214.0" layoutY="499.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powes22" layoutX="667.0" layoutY="409.0" text="0">
+            <Label fx:id="powers20" layoutX="192.0" layoutY="541.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="712.0" layoutY="369.0" text="STA:">
+            <Label layoutX="246.0" layoutY="494.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="711.0" layoutY="386.0" text="STR:">
+            <Label layoutX="245.0" layoutY="511.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="740.0" layoutY="369.0" text="SPD:">
+            <Label layoutX="274.0" layoutY="494.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="741.0" layoutY="386.0" text="INT:">
+            <Label layoutX="275.0" layoutY="511.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="786.0" layoutY="369.0" text="SKL:">
+            <Label layoutX="320.0" layoutY="494.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA23" layoutX="729.0" layoutY="369.0" text="0">
+            <Label fx:id="STA20" layoutX="263.0" layoutY="494.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR23" layoutX="729.0" layoutY="386.0" text="0">
+            <Label fx:id="STR21" layoutX="263.0" layoutY="511.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD23" layoutX="759.0" layoutY="369.0" text="0">
+            <Label fx:id="SPD21" layoutX="293.0" layoutY="494.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT23" layoutX="759.0" layoutY="386.0" text="0">
+            <Label fx:id="INT21" layoutX="293.0" layoutY="511.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL23" layoutX="803.0" layoutY="369.0" text="0">
+            <Label fx:id="SKL21" layoutX="337.0" layoutY="494.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers23" layoutX="782.0" layoutY="409.0" text="0">
+            <Label fx:id="powers21" layoutX="316.0" layoutY="534.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="828.0" layoutY="369.0" text="STA:">
+            <Label layoutX="361.0" layoutY="497.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="827.0" layoutY="386.0" text="STR:">
+            <Label layoutX="360.0" layoutY="514.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="856.0" layoutY="369.0" text="SPD:">
+            <Label layoutX="389.0" layoutY="497.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="857.0" layoutY="386.0" text="INT:">
+            <Label layoutX="390.0" layoutY="514.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="902.0" layoutY="369.0" text="SKL:">
+            <Label layoutX="435.0" layoutY="497.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA24" layoutX="845.0" layoutY="369.0" text="0">
+            <Label fx:id="STA21" layoutX="378.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR24" layoutX="845.0" layoutY="386.0" text="0">
+            <Label fx:id="STR22" layoutX="378.0" layoutY="514.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD24" layoutX="875.0" layoutY="369.0" text="0">
+            <Label fx:id="SPD22" layoutX="408.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT24" layoutX="875.0" layoutY="386.0" text="0">
+            <Label fx:id="INT22" layoutX="408.0" layoutY="514.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL24" layoutX="919.0" layoutY="369.0" text="0">
+            <Label fx:id="SKL22" layoutX="452.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers24" layoutX="898.0" layoutY="409.0" text="0">
+            <Label fx:id="powes22" layoutX="431.0" layoutY="537.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="11.0" layoutY="498.0" text="STA:">
+            <Label layoutX="476.0" layoutY="497.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="10.0" layoutY="515.0" text="STR:">
+            <Label layoutX="475.0" layoutY="514.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="39.0" layoutY="498.0" text="SPD:">
+            <Label layoutX="504.0" layoutY="497.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="40.0" layoutY="515.0" text="INT:">
+            <Label layoutX="505.0" layoutY="514.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="85.0" layoutY="498.0" text="SKL:">
+            <Label layoutX="550.0" layoutY="497.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA25" layoutX="28.0" layoutY="498.0" text="0">
+            <Label fx:id="STA22" layoutX="493.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR25" layoutX="28.0" layoutY="515.0" text="0">
+            <Label fx:id="STR23" layoutX="493.0" layoutY="514.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD25" layoutX="58.0" layoutY="498.0" text="0">
+            <Label fx:id="SPD23" layoutX="523.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT25" layoutX="58.0" layoutY="515.0" text="0">
+            <Label fx:id="INT23" layoutX="523.0" layoutY="514.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL25" layoutX="102.0" layoutY="498.0" text="0">
+            <Label fx:id="SKL23" layoutX="567.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers25" layoutX="81.0" layoutY="538.0" text="0">
+            <Label fx:id="powers23" layoutX="546.0" layoutY="537.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="126.0" layoutY="495.0" text="STA:">
+            <Label layoutX="592.0" layoutY="497.0" text="STA:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="125.0" layoutY="512.0" text="STR:">
+            <Label layoutX="591.0" layoutY="514.0" text="STR:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="154.0" layoutY="495.0" text="SPD:">
+            <Label layoutX="620.0" layoutY="497.0" text="SPD:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="155.0" layoutY="512.0" text="INT:">
+            <Label layoutX="621.0" layoutY="514.0" text="INT:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label layoutX="200.0" layoutY="495.0" text="SKL:">
+            <Label layoutX="666.0" layoutY="497.0" text="SKL:">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STA26" layoutX="143.0" layoutY="495.0" text="0">
+            <Label fx:id="STA23" layoutX="609.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="STR26" layoutX="143.0" layoutY="512.0" text="0">
+            <Label fx:id="STR24" layoutX="609.0" layoutY="514.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SPD26" layoutX="173.0" layoutY="495.0" text="0">
+            <Label fx:id="SPD24" layoutX="639.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="INT26" layoutX="173.0" layoutY="512.0" text="0">
+            <Label fx:id="INT24" layoutX="639.0" layoutY="514.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="SKL26" layoutX="217.0" layoutY="495.0" text="0">
+            <Label fx:id="SKL24" layoutX="683.0" layoutY="497.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
-            <Label fx:id="powers26" layoutX="196.0" layoutY="535.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="241.0" layoutY="495.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="240.0" layoutY="512.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="269.0" layoutY="495.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="270.0" layoutY="512.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="315.0" layoutY="495.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA27" layoutX="258.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR27" layoutX="258.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD27" layoutX="288.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT27" layoutX="288.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL27" layoutX="332.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers27" layoutX="311.0" layoutY="535.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="355.0" layoutY="495.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="354.0" layoutY="512.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="383.0" layoutY="495.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="384.0" layoutY="512.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="429.0" layoutY="495.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA28" layoutX="372.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR28" layoutX="372.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD28" layoutX="402.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT28" layoutX="402.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL28" layoutX="446.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers28" layoutX="425.0" layoutY="535.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="471.0" layoutY="495.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="470.0" layoutY="512.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="499.0" layoutY="495.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="500.0" layoutY="512.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="545.0" layoutY="495.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA29" layoutX="488.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR29" layoutX="488.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD29" layoutX="518.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT29" layoutX="518.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL29" layoutX="562.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers29" layoutX="541.0" layoutY="535.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="590.0" layoutY="495.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="589.0" layoutY="512.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="618.0" layoutY="495.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="619.0" layoutY="512.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="664.0" layoutY="495.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA30" layoutX="607.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR30" layoutX="607.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD30" layoutX="637.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT30" layoutX="637.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL30" layoutX="681.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers30" layoutX="660.0" layoutY="535.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="708.0" layoutY="495.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="707.0" layoutY="512.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="736.0" layoutY="495.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="737.0" layoutY="512.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="782.0" layoutY="495.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA31" layoutX="725.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR31" layoutX="725.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD31" layoutX="755.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT31" layoutX="755.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL31" layoutX="799.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers31" layoutX="778.0" layoutY="535.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="824.0" layoutY="495.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="823.0" layoutY="512.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="852.0" layoutY="495.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="853.0" layoutY="512.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="898.0" layoutY="495.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA32" layoutX="841.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR32" layoutX="841.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD32" layoutX="871.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT32" layoutX="871.0" layoutY="512.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL32" layoutX="915.0" layoutY="495.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers32" layoutX="894.0" layoutY="535.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="10.0" layoutY="625.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="9.0" layoutY="642.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="38.0" layoutY="625.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="39.0" layoutY="642.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="84.0" layoutY="625.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA33" layoutX="27.0" layoutY="625.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR33" layoutX="27.0" layoutY="642.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD33" layoutX="57.0" layoutY="625.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT33" layoutX="57.0" layoutY="642.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL33" layoutX="101.0" layoutY="625.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers33" layoutX="81.0" layoutY="658.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="130.0" layoutY="626.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="129.0" layoutY="643.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="158.0" layoutY="626.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="159.0" layoutY="643.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="204.0" layoutY="626.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA34" layoutX="147.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR34" layoutX="147.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD34" layoutX="177.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT34" layoutX="177.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL34" layoutX="221.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers34" layoutX="201.0" layoutY="659.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="242.0" layoutY="626.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="241.0" layoutY="643.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="270.0" layoutY="626.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="271.0" layoutY="643.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="316.0" layoutY="626.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA35" layoutX="259.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR35" layoutX="259.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD35" layoutX="289.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT35" layoutX="289.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL35" layoutX="333.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers35" layoutX="313.0" layoutY="659.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="356.0" layoutY="626.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="355.0" layoutY="643.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="384.0" layoutY="626.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="385.0" layoutY="643.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="430.0" layoutY="626.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA36" layoutX="373.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR36" layoutX="373.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD36" layoutX="403.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT36" layoutX="403.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL36" layoutX="447.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers36" layoutX="427.0" layoutY="659.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="478.0" layoutY="627.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="477.0" layoutY="644.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="506.0" layoutY="627.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="507.0" layoutY="644.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="552.0" layoutY="627.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA37" layoutX="495.0" layoutY="627.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR37" layoutX="495.0" layoutY="644.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD37" layoutX="525.0" layoutY="627.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT37" layoutX="525.0" layoutY="644.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL37" layoutX="569.0" layoutY="627.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers37" layoutX="549.0" layoutY="660.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="595.0" layoutY="626.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="594.0" layoutY="643.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="623.0" layoutY="626.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="624.0" layoutY="643.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="669.0" layoutY="626.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA38" layoutX="612.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR38" layoutX="612.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD38" layoutX="642.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT38" layoutX="642.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL38" layoutX="686.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers38" layoutX="666.0" layoutY="659.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="712.0" layoutY="626.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="711.0" layoutY="643.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="740.0" layoutY="626.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="741.0" layoutY="643.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="786.0" layoutY="626.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA39" layoutX="729.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR39" layoutX="729.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD39" layoutX="759.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT39" layoutX="759.0" layoutY="643.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL39" layoutX="803.0" layoutY="626.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers39" layoutX="783.0" layoutY="659.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="826.0" layoutY="625.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="825.0" layoutY="642.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="854.0" layoutY="625.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="855.0" layoutY="642.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="900.0" layoutY="625.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA40" layoutX="843.0" layoutY="625.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR40" layoutX="843.0" layoutY="642.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD40" layoutX="873.0" layoutY="625.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT40" layoutX="873.0" layoutY="642.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL40" layoutX="917.0" layoutY="625.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers40" layoutX="897.0" layoutY="658.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="15.0" layoutY="751.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="14.0" layoutY="768.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="43.0" layoutY="751.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="44.0" layoutY="768.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="89.0" layoutY="751.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA41" layoutX="32.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR41" layoutX="32.0" layoutY="768.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD41" layoutX="62.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT41" layoutX="62.0" layoutY="768.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL41" layoutX="106.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers41" layoutX="86.0" layoutY="784.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="130.0" layoutY="751.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="129.0" layoutY="768.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="158.0" layoutY="751.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="159.0" layoutY="768.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="204.0" layoutY="751.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA42" layoutX="147.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR42" layoutX="147.0" layoutY="768.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD42" layoutX="177.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT42" layoutX="177.0" layoutY="768.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL42" layoutX="221.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers42" layoutX="201.0" layoutY="784.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="248.0" layoutY="751.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="247.0" layoutY="768.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="276.0" layoutY="751.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="277.0" layoutY="768.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="322.0" layoutY="751.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA43" layoutX="265.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR43" layoutX="265.0" layoutY="768.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD43" layoutX="295.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT43" layoutX="295.0" layoutY="768.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL43" layoutX="339.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers43" layoutX="319.0" layoutY="784.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="358.0" layoutY="752.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="357.0" layoutY="769.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="386.0" layoutY="752.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="387.0" layoutY="769.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="432.0" layoutY="752.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA44" layoutX="375.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR44" layoutX="375.0" layoutY="769.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD44" layoutX="405.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT44" layoutX="405.0" layoutY="769.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL44" layoutX="449.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers44" layoutX="429.0" layoutY="785.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="478.0" layoutY="747.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="477.0" layoutY="764.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="506.0" layoutY="747.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="507.0" layoutY="764.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="552.0" layoutY="747.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA45" layoutX="495.0" layoutY="747.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR45" layoutX="495.0" layoutY="764.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD45" layoutX="525.0" layoutY="747.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT45" layoutX="525.0" layoutY="764.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL45" layoutX="569.0" layoutY="747.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers45" layoutX="549.0" layoutY="780.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="591.0" layoutY="752.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="590.0" layoutY="769.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="619.0" layoutY="752.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="620.0" layoutY="769.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="665.0" layoutY="752.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA46" layoutX="608.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR46" layoutX="608.0" layoutY="769.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD46" layoutX="638.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT46" layoutX="638.0" layoutY="769.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL322713" layoutX="682.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers46" layoutX="662.0" layoutY="785.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="708.0" layoutY="752.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="707.0" layoutY="769.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="736.0" layoutY="752.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="737.0" layoutY="769.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="782.0" layoutY="752.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA47" layoutX="725.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR47" layoutX="725.0" layoutY="769.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD47" layoutX="755.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT47" layoutX="755.0" layoutY="769.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL47" layoutX="799.0" layoutY="752.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers322714" layoutX="779.0" layoutY="785.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="828.0" layoutY="751.0" text="STA:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="827.0" layoutY="768.0" text="STR:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="856.0" layoutY="751.0" text="SPD:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="857.0" layoutY="768.0" text="INT:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label layoutX="902.0" layoutY="751.0" text="SKL:">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STA48" layoutX="845.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="STR48" layoutX="845.0" layoutY="768.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SPD48" layoutX="875.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="INT48" layoutX="875.0" layoutY="768.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="SKL48" layoutX="919.0" layoutY="751.0" text="0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="powers48" layoutX="899.0" layoutY="784.0" text="0">
+            <Label fx:id="powers24" layoutX="662.0" layoutY="537.0" text="0">
                <font>
                   <Font size="8.0" />
                </font>
             </Label>
          </children></AnchorPane>
   </content>
-</TitledPane>
+</fx:root>

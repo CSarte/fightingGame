@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="767.0" text="FIGHT" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="767.0" text="FIGHT" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fight.FightFXMLController">
   <content>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
          <children>
@@ -98,18 +98,18 @@
                   <Font size="26.0" />
                </font>
             </Label>
-            <Text fx:id="Player1TCPHeader" layoutX="34.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player #1 Total Combat Power:" visible="false" wrappingWidth="246.80338287353516">
+            <Text fx:id="Player1TCPHeader" layoutX="34.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player #1 Total Combat Power:" wrappingWidth="246.80338287353516">
                <font>
                   <Font size="26.0" />
                </font>
             </Text>
-            <Text fx:id="Player2TCPHeader" layoutX="411.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player #2 Total Combat Power:" visible="false" wrappingWidth="246.80338287353516">
+            <Text fx:id="Player2TCPHeader" layoutX="437.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player #2 Total Combat Power:" wrappingWidth="246.80338287353516">
                <font>
                   <Font size="26.0" />
                </font>
             </Text>
             <Button fx:id="FightButton" layoutX="345.0" layoutY="513.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="77.0" text="FIGHT" />
-            <Text fx:id="WinnerText" layoutX="202.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player Name is the WINNER!" textAlignment="CENTER" visible="false" wrappingWidth="358.8033752441406">
+            <Text fx:id="WinnerText" layoutX="202.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player Name is the WINNER!" textAlignment="CENTER" wrappingWidth="358.8033752441406">
                <font>
                   <Font size="26.0" />
                </font>

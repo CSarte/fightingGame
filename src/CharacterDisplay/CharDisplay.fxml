@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -19,7 +20,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-4.0" prefHeight="83.0" prefWidth="377.0" text="NAME" textAlignment="CENTER">
+            <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="-4.0" prefHeight="83.0" prefWidth="377.0" text="NAME" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="42.0" />
                </font>
@@ -87,16 +88,21 @@
             </Label>
             <AnchorPane layoutX="1.0" layoutY="74.0" prefHeight="250.0" prefWidth="377.0">
                <children>
-                  <Line fx:id="rightArm" endX="-8.333343505859375" endY="2.0000152587890625" layoutX="194.0" layoutY="88.0" startX="-41.666656494140625" startY="35.33332824707031" />
-                  <Line fx:id="leftArm" endX="-62.333343505859375" endY="36.00001525878906" layoutX="287.0" layoutY="89.0" startX="-100.0" />
-                  <Line fx:id="body" endX="0.373748779296875" endY="79.33335876464844" layoutX="186.0" layoutY="88.0" startX="0.373748779296875" startY="1.2929229736328125" strokeWidth="2.0" />
+                  <Line fx:id="rightArm" endX="-8.333343505859375" endY="2.0000152587890625" layoutX="197.0" layoutY="102.0" startX="-41.666656494140625" startY="35.33332824707031" />
+                  <Line fx:id="leftArm" endX="-62.333343505859375" endY="36.00001525878906" layoutX="286.0" layoutY="103.0" startX="-100.0" />
+                  <Line fx:id="body" endX="0.373748779296875" endY="79.33335876464844" layoutX="186.0" layoutY="88.0" startX="0.373779296875" startY="18.66668701171875" strokeWidth="2.0" />
                   <Line fx:id="rightLeg" endX="-8.333343505859375" endY="2.0000152587890625" layoutX="193.0" layoutY="167.0" startX="-33.000030517578125" startY="41.666656494140625" />
                   <Line fx:id="leftLeg" endX="-16.666656494140625" endY="74.33334350585938" layoutX="230.0" layoutY="131.0" startX="-41.666656494140625" startY="35.33332824707031" />
-                  <Circle fx:id="head" fill="WHITE" layoutX="185.0" layoutY="68.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="head" fill="WHITE" layoutX="188.0" layoutY="85.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
                   <Line endX="86.99996948242188" endY="18.666671752929688" layoutX="71.0" layoutY="126.0" startX="64.99996948242188" startY="-2.6666717529296875" />
                   <Line endX="20.666656494140625" endY="-9.333328247070312" layoutX="124.0" layoutY="122.0" startX="1.333343505859375" startY="13.333328247070312" />
                   <Line endX="101.00003051757812" endY="-1.9999847412109375" layoutX="34.0" layoutY="126.0" startX="75.33334350585938" startY="-27.999984741210938" />
                   <Circle fill="BLUE" layoutX="135.0" layoutY="123.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Button layoutX="311.0" layoutY="209.0" mnemonicParsing="false" onAction="#buttonAction" text="Home">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
          </children></AnchorPane>
