@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMain.java to edit this template
  */
-/**Title: FSC Grade Book
- * Date: 2/24/2023
+/**Title: Program 5 Fighting Game
+ * Course Number: Object Oriented programming 2290 002
+ * Date: 4/24/2023
  * Author: Catherine Sarte, Jake Shumate
  * Email: csarte250@gmail.com, jake.shumate33823@gmail.com
  * Honor Code:“I will practice academic and personal integrity and excellence of character  
