@@ -4,6 +4,7 @@
  */
 package AddCharacter;
 
+// javafx imports for controller
 import CharacterDisplay.*;
 import addPowers.*;
 import java.io.IOException;
@@ -22,17 +23,15 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author cathe
- */
+//class for adding character controller scene
 public class AddCharacterFXMLController implements Initializable {
     Stage stage;
-    // data members for scene items
+    
     // array list to save all characters
     private static ArrayList<character> characters = new ArrayList<character>();
-     @FXML
+    
+    // data members for scene items
+    @FXML
     private ChoiceBox<String> HeroVvillian;
      
 
@@ -61,23 +60,20 @@ public class AddCharacterFXMLController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        // intitlaize the drop down menu with team selections
         HeroVvillian.getItems().addAll("Heroes", "Villains");
         HeroVvillian.getSelectionModel().select(0);
     }    
-    //method to collect array of characters
-    public ArrayList<character> getCharacters(){
-        return characters;
-    }
    
   
     //method that is called to open character display window
      public void openCharacterDisplayWin(){
+         //catch io exception
          try{
             //create character display window
             Stage displayChar = new Stage();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/CharacterDisplay/CharDisplay.fxml"));
-            Parent pane = (Parent) loader.load();//problem
+            Parent pane = (Parent) loader.load();
             CharDisplayController control = loader.getController();
             control.setCharacter(characters, characters.size()-1);
             displayChar.setTitle("FIGHTER");
@@ -91,13 +87,14 @@ public class AddCharacterFXMLController implements Initializable {
         }
     }
      
-    //method that is called to open powers window display window
+    //method that is called to open powers collection window display window
      public void openPowersWin(){
+         //catch io exception
          try{
             //create add powers window
             Stage getPowers = new Stage();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/addPowers/AddPowerFXML.fxml"));
-            Parent pane = (Parent) loader.load();//problem
+            Parent pane = (Parent) loader.load();
             AddPowerFXMLController control = loader.getController();
             control.setCharacter(characters, characters.size()-1, "empty");
             getPowers.setTitle("ADD POWERS");
@@ -109,17 +106,20 @@ public class AddCharacterFXMLController implements Initializable {
             System.out.println(ex);
         }
     }
-    //open error window
+    //open error window: called when user has not inputed information into the window properly
      public void openErrorWin(){
+         //catch io exception
          try{
-            //create add powers window
+            //create error window
             Stage error= new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("errorMessage.fxml"));
-            Scene scene = new Scene(root);
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("errorMessage.fxml"));
+            Parent pane = (Parent) loader.load();
+            ErrorMessageController control = loader.getController();
             error.setTitle("ERROR");
-            error.setScene(scene);
-            error.show();
+            control.setMessage("ERROR: Make sure all inputs and filled and only integers should be entered in STATS");
+            error.setScene(new Scene(pane));
             error.setResizable(false);
+            error.show();
         }catch(IOException ex){
             System.out.println(ex);
         }
@@ -129,6 +129,7 @@ public class AddCharacterFXMLController implements Initializable {
         try {
             Integer.parseInt(str);
             return true;
+        //if exception occurs string was not an integer
         } catch(NumberFormatException e){
             return false;
         }

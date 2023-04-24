@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
 package CharacterDisplay;
+
+//javafx imports
 import AddCharacter.*;
 import AddCharacter.character;
 import java.io.IOException;
@@ -21,14 +23,15 @@ import javafx.scene.control.Label;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import mainMenu.*;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 
-/**
- * FXML Controller class
- *
- * @author cathe
- */
+//class to display a single character
 public class CharDisplayController implements Initializable {
-    Stage stage;
+    Stage stage; 
+    private ArrayList<character> characters = new ArrayList<character>();
+    private int charIndex;
+    // data members for scene items
     @FXML
     private Label INT;
 
@@ -64,6 +67,9 @@ public class CharDisplayController implements Initializable {
 
     @FXML
     private Line rightLeg;
+    
+    @FXML
+    private Line sword;
 
     @FXML
     private Label teamLabel;
@@ -71,9 +77,12 @@ public class CharDisplayController implements Initializable {
     @FXML
     private Label name;
     
-    private ArrayList<character> characters = new ArrayList<character>();
+    @FXML
+    private Rectangle bottomFrame;
     
-    private int charIndex;
+    @FXML
+    private Rectangle topFrame;
+
     /**
      * Initializes the controller class.
      */
@@ -82,8 +91,9 @@ public class CharDisplayController implements Initializable {
         // TODO
        
     }    
-    //get character list
+    //This method gets the character list and index from the add character controller to display the characters stats
     public void setCharacter(ArrayList<character> characters, int index){
+
         //collect character arrray values
         this.characters = characters;
         //collect character index
@@ -96,6 +106,27 @@ public class CharDisplayController implements Initializable {
         INT.setText(Integer.toString(characters.get(charIndex).getStats().getIntelligence()));
         SKL.setText(Integer.toString(characters.get(charIndex).getStats().getSkills()));
         teamLabel.setText(characters.get(charIndex).getTeam());
+        
+        //set character body display based on stats
+        //body increase based on stamina
+        body.setStrokeWidth(1 +((characters.get(charIndex).getStats().getStamina()))/2);
+        //arm width increased based on strength
+        leftArm.setStrokeWidth(1 +((characters.get(charIndex).getStats().getStrength()))/2);
+        rightArm.setStrokeWidth(1 +((characters.get(charIndex).getStats().getStrength()))/2);
+        //legs width increased based on speed
+        leftLeg.setStrokeWidth(1 +((characters.get(charIndex).getStats().getSpeed()))/2);
+        rightLeg.setStrokeWidth(1 +((characters.get(charIndex).getStats().getSpeed()))/2);
+        //head size increase based on intelligence
+        head.setRadius(20+((characters.get(charIndex).getStats().getIntelligence()))/2);
+        //sword width increased based on skill
+        sword.setStrokeWidth(1 +((characters.get(charIndex).getStats().getSkills()))/2);
+        //set framing based of team selected
+        //if hero team was selected
+        if (characters.get(charIndex).getTeam().equals("Heroes")){
+            topFrame.setFill(Color.LIGHTBLUE);
+            bottomFrame.setFill(Color.LIGHTBLUE);
+        }
+        
         //if fighter is a super hero
         if (characters.get(charIndex) instanceof SuperHV){
             //collect and display charatcers powers
@@ -103,8 +134,10 @@ public class CharDisplayController implements Initializable {
         }
         //character is not super
         else{
+            //display that the character does not have powers
             powerList.setText("Fighter does not have powers");
         }
+        
         
     }
     
@@ -117,6 +150,7 @@ public class CharDisplayController implements Initializable {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/mainMenu/MainFXML.fxml"));
             Parent pane = (Parent) loader.load();
             MainFXMLController control = loader.getController();
+            //send character list to main menu
             control.setCharacter(characters);
             mainMenu.setTitle("FIGHT!");
             mainMenu.setScene(new Scene (pane));
@@ -132,7 +166,6 @@ public class CharDisplayController implements Initializable {
     public void buttonAction(ActionEvent event){
         //collect the stage attached to the window and button
         stage = (Stage)((Button)event.getSource()).getScene().getWindow();
-        
         //close window stage
         stage.close();
         //open MainMenu

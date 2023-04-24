@@ -15,6 +15,7 @@ public class Stats {
     private int stamina;
     private int speed;
     private int skills;
+    //variables to be used for overall averages
     private static double intSumHero = 0;
     private static double strSumHero = 0;
     private static double spdSumHero = 0;

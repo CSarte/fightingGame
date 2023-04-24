@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
 package CharacterDisplay;
-
-import AddCharacter.character;
+//imports for javafx
+import AddCharacter.*;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -21,17 +21,12 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import mainMenu.*;
 
-/**
- * FXML Controller class
- *
- * @author cathe
- */
-
-
+//controller for the search character display
 public class SearchNameController implements Initializable {
     private ArrayList<character> characters = new ArrayList<character>();
-    
     private int charIndex;
+    
+    //data memebers from scene builder
     @FXML
     private TextField fighterName;
     
@@ -45,29 +40,31 @@ public class SearchNameController implements Initializable {
     
     //this method collects the character list from main
     public void setCharacter(ArrayList<character> characters){
+        //set character list
         this.characters = characters;
     }
-    //this method opens the character dispaly window using index found with the name
+    //this method opens the character display window using index found 
      public void openCharacterDisplayWin(int chrIndex){
+        //catch IO exception
          try{
             //create character display window
             Stage displayChar = new Stage();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/CharacterDisplay/CharDisplay.fxml"));
-            Parent pane = (Parent) loader.load();//problem
+            Parent pane = (Parent) loader.load();
             CharDisplayController control = loader.getController();
+            //send character list and the chosen charaters index
             control.setCharacter(characters, chrIndex);
             displayChar.setTitle("FIGHTER");
             displayChar.setScene(new Scene(pane));
             displayChar.setResizable(false);
             displayChar.show();
             
-            
         }catch(IOException ex){
             System.out.println(ex);
         }
     }
      
-      //method to open the main menu
+   //method to open the main menu
     public void openMainWin(){
         //catch io exception
         try{
@@ -76,6 +73,7 @@ public class SearchNameController implements Initializable {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/mainMenu/MainFXML.fxml"));
             Parent pane = (Parent) loader.load();
             MainFXMLController control = loader.getController();
+            //send character list to main menu
             control.setCharacter(characters);
             mainMenu.setTitle("FIGHT!");
             mainMenu.setScene(new Scene (pane));
@@ -87,9 +85,28 @@ public class SearchNameController implements Initializable {
         }
     }
     
+    //open error window: called when user has not inputed information into the window properly
+     public void openErrorWin(String message){
+         //catch io exception
+         try{
+            //create error window
+            Stage error= new Stage();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/AddCharacter/errorMessage.fxml"));
+            Parent pane = (Parent) loader.load();
+            ErrorMessageController control = loader.getController();
+            error.setTitle("ERROR");
+            control.setMessage(message);
+            error.setScene(new Scene(pane));
+            error.setResizable(false);
+            error.show();
+        }catch(IOException ex){
+            System.out.println(ex);
+        }
+    }
+    
     //this method collects the entered text and searches for the fighter from the character list
     public void buttonAction(ActionEvent event){
-        //get button text
+        //get and save button text
         Button button = (Button) event.getSource();
         String buttonText = button.getText();
         
@@ -113,14 +130,14 @@ public class SearchNameController implements Initializable {
                 }
                 //if index was not found
                 if (chrIndex == -1){
-                    //set label as a message to the user
-                    message.setText("Name was not found in the fighter database");
+                    //show error message
+                    openErrorWin("Name was not found in the fighter database");
                 }
             }
             //else user did not enter a name
             else{
                 //show error message
-                message.setText("Please enter a name");
+                openErrorWin("Please enter a name");
             }
         }
         //else user clicked the home button

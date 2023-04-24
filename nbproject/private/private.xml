@@ -3,15 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/CharacterDisplay/CharDisplayController.java</file>
-            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/Stats.java</file>
-            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/FightingGameFinalFX.java</file>
-            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/mainMenu/MainFXMLController.java</file>
-            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/AddCharacterFXMLController.java</file>
-            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/character.java</file>
-            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/CharacterDisplay/searchName.fxml</file>
-            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/SuperHV.java</file>
             <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/CharacterDisplay/SearchNameController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/Stats/StatsFXMLController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/fightCharacterSelect/HeroVillianDisplayController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/character.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/Fight/FightFXML.fxml</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/CharacterDisplay/CharDisplayController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/SuperHV.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/FightingGameFinalFX.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/ErrorMessageController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/mainMenu/MainFXMLController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/Stats.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/fightCharacterSelect/FullCharDisplay.fxml</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/AddCharacter/AddCharacterFXMLController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/Fight/FightFXMLController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/Fight/newGame/NewGameFXMLController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/startMenu/StartFXMLController.java</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/fightCharacterSelect/HeroVillianDisplay.fxml</file>
+            <file>file:/C:/Users/cathe/OneDrive/Desktop/CSC2290/Chapter1/ChpPrograms/FightingGameFinal/src/fightCharacterSelect/FullCharDisplayController.java</file>
         </group>
     </open-files>
 </project-private>

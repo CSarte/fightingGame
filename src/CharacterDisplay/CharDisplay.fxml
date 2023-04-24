@@ -13,8 +13,8 @@
   <content>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="492.0" prefWidth="479.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffac21" height="75.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="383.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb121" height="169.0" layoutX="-4.0" layoutY="324.0" stroke="BLACK" strokeType="INSIDE" width="383.0" />
+            <Rectangle fx:id="topFrame" arcHeight="5.0" arcWidth="5.0" fill="#f03d18" height="75.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="383.0" />
+            <Rectangle fx:id="bottomFrame" arcHeight="5.0" arcWidth="5.0" fill="#ff4121" height="169.0" layoutX="-4.0" layoutY="324.0" stroke="BLACK" strokeType="INSIDE" width="383.0" />
             <Label layoutX="14.0" layoutY="333.0" text="STATS:">
                <font>
                   <Font name="System Bold" size="13.0" />
@@ -90,14 +90,11 @@
                <children>
                   <Line fx:id="rightArm" endX="-8.333343505859375" endY="2.0000152587890625" layoutX="197.0" layoutY="102.0" startX="-41.666656494140625" startY="35.33332824707031" />
                   <Line fx:id="leftArm" endX="-62.333343505859375" endY="36.00001525878906" layoutX="286.0" layoutY="103.0" startX="-100.0" />
-                  <Line fx:id="body" endX="0.373748779296875" endY="79.33335876464844" layoutX="186.0" layoutY="88.0" startX="0.373779296875" startY="18.66668701171875" strokeWidth="2.0" />
+                  <Line fx:id="body" endX="0.373748779296875" endY="79.33335876464844" layoutX="186.0" layoutY="88.0" startX="0.373779296875" startY="18.66668701171875" />
                   <Line fx:id="rightLeg" endX="-8.333343505859375" endY="2.0000152587890625" layoutX="193.0" layoutY="167.0" startX="-33.000030517578125" startY="41.666656494140625" />
                   <Line fx:id="leftLeg" endX="-16.666656494140625" endY="74.33334350585938" layoutX="230.0" layoutY="131.0" startX="-41.666656494140625" startY="35.33332824707031" />
-                  <Circle fx:id="head" fill="WHITE" layoutX="188.0" layoutY="85.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
-                  <Line endX="86.99996948242188" endY="18.666671752929688" layoutX="71.0" layoutY="126.0" startX="64.99996948242188" startY="-2.6666717529296875" />
-                  <Line endX="20.666656494140625" endY="-9.333328247070312" layoutX="124.0" layoutY="122.0" startX="1.333343505859375" startY="13.333328247070312" />
-                  <Line endX="101.00003051757812" endY="-1.9999847412109375" layoutX="34.0" layoutY="126.0" startX="75.33334350585938" startY="-27.999984741210938" />
-                  <Circle fill="BLUE" layoutX="135.0" layoutY="123.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="head" fill="WHITE" layoutX="188.0" layoutY="85.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+                  <Line fx:id="sword" endX="118.0" endY="26.0" layoutX="33.0" layoutY="121.0" startX="82.0" startY="-19.5" />
                   <Button layoutX="311.0" layoutY="209.0" mnemonicParsing="false" onAction="#buttonAction" text="Home">
                      <font>
                         <Font name="System Bold" size="12.0" />

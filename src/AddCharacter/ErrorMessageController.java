@@ -4,23 +4,29 @@
  */
 package AddCharacter;
 
+//javafx imports
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 
-/**
- * FXML Controller class
- *
- * @author cathe
- */
+//controller class for error message scene
 public class ErrorMessageController implements Initializable {
-
-    /**
-     * Initializes the controller class.
-     */
+    
+    //data memebers for scene
+    @FXML
+    private Label erroMessgae;
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
+    }  
+    
+    //method to set error message from string set from call
+    public void setMessage(String message){
+        //set error text
+        erroMessgae.setText(message);
+    }
     
 }

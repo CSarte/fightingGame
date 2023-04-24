@@ -4,12 +4,11 @@
  */
 package Stats;
 
-import AddCharacter.character;
+import AddCharacter.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
-import AddCharacter.*;
 import java.io.IOException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -90,6 +89,7 @@ public class StatsFXMLController implements Initializable {
         int numHeroSuper = 0;
         int numVillianNormal = 0;
         int numVillianSuper = 0;
+        int superindex = -1;
         //collect characters array
         this.characters = characters;
         //loop to get number of normal characters and number of super charatcer
@@ -100,6 +100,7 @@ public class StatsFXMLController implements Initializable {
                 if (characters.get(i) instanceof SuperHV){
                     //add to super fighter number
                     numHeroSuper += 1;
+                    superindex = i;
                 }
                 //else character at i is normal
                 else{
@@ -113,6 +114,7 @@ public class StatsFXMLController implements Initializable {
                 if (characters.get(i) instanceof SuperHV){
                     //add to super fighter number
                     numVillianSuper += 1;
+                    superindex = i;
                 }
                 //else character at i is normal
                 else{
@@ -128,7 +130,6 @@ public class StatsFXMLController implements Initializable {
         TotalHeroVillains.setText(Integer.toString(numVillianSuper));
         TotalNPCVillain.setText(Integer.toString(numVillianNormal));
         TotalNPCHeroes.setText(Integer.toString(numHeroNormal));
-        
         //set statistics averages
         //if num heroes is greater than zero
         if ((numHeroSuper +numHeroNormal)>0){
@@ -146,10 +147,12 @@ public class StatsFXMLController implements Initializable {
             AVVillainSpd.setText(Double.toString(characters.get(0).getStats().getAvgSpd("Villains", (numVillianSuper +numVillianNormal))));
             AVVillainsSkl.setText(Double.toString(characters.get(0).getStats().getAvgSkl("Villains", (numVillianSuper +numVillianNormal))));
         }
-        
-        //display the aggregate powers of fighters
-        TotalHeroPowers.setText(String.join(", ",((SuperHV)characters.get(0)).getPowerList("Heroes")));
-        TotalVillainPowers.setText(String.join(", ",((SuperHV)characters.get(0)).getPowerList("Villains")));
+        //if there are powers in the system
+        if (superindex != -1){
+            //display the aggregate powers of fighters
+            TotalHeroPowers.setText(String.join(", ",((SuperHV)characters.get(superindex)).getPowerList("Heroes")));
+            TotalVillainPowers.setText(String.join(", ",((SuperHV)characters.get(superindex)).getPowerList("Villains")));
+        }
         
     }
     
