@@ -1,4 +1,5 @@
-#JAVA FX Fighting Game
+JAVA FX fighting game:
+
 This project is complete
 This program is a Java FX java app that was developed as the final project for my Object-oriented Programming course in the Spring of 2023. 
 The program itself is a graphic user interface that allows you to create up to 50 characters and fight them against each other.
